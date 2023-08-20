@@ -117,8 +117,11 @@ class Owntracks extends ScryptedDeviceBase implements PushHandler, Settings, Dev
 
     async discoverDevices(duration: number) {
     }
-    getDevice(nativeId: string) {
+    async getDevice(nativeId: string): Promise<OwntracksRegion> {
         return new OwntracksRegion(nativeId);
+    }
+    releaseDevice(id: string, nativeId: string): Promise<void> {
+        return
     }
     getSetting(key: string): string | number | boolean {
         return null;
