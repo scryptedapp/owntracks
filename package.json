@@ -1,6 +1,6 @@
 {
    "name": "@scrypted/owntracks",
-   "version": "0.0.24",
+   "version": "0.0.25",
    "description": "Owntracks Plugin for Scrypted",
    "author": "Scrypted",
    "license": "Apache",
@@ -32,7 +32,7 @@
       ]
    },
    "dependencies": {
-      "@scrypted/sdk": "^0.2.56",
+      "@scrypted/sdk": "^0.2.103",
       "basic-auth": "^2.0.1"
    }
 }
